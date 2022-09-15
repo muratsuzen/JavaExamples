@@ -1,0 +1,23 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		char grade = 'A';
+		
+		switch(grade) {
+		case 'A':
+			System.out.println("İyi Puan");
+			break;
+		case 'B':
+			System.out.println("Orta Puan");
+			break;
+		case 'C':
+			System.out.println("Kötü Puan");
+			break;
+		}
+
+	}
+
+}

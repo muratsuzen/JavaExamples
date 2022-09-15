@@ -1,0 +1,18 @@
+package dataTypes;
+
+public class Main {
+
+	public static void main(String[] args) {
+			int sayi  = 123;
+			sayi = -123;
+			
+			boolean karar = true;
+			karar = false;
+			
+			char karakter = 'A';
+			karakter = 'X';
+					
+
+	}
+
+}
