@@ -21,6 +21,14 @@ public class Main {
 		ogrenciler[1] = "Veli";
 		ogrenciler[2] = "Can";
 		ogrenciler[3] = "Kemal";
+		
+		for(int i = 0;i<ogrenciler.length;i++) {
+			System.out.println(ogrenciler[i]);
+		}
+		
+		for (String ogrenci : ogrenciler) {
+			System.out.println(ogrenci);
+		}
 				
 
 	}
